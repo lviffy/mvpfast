@@ -36,7 +36,7 @@ export function FAQ() {
     const [openId, setOpenId] = useState<string | null>("01");
 
     return (
-        <section className="py-24 px-4 md:px-6 bg-white text-black">
+        <section className="py-24 px-4 md:px-6 bg-background text-black">
             {/* Header */}
             <div className="flex flex-col md:flex-row justify-between items-start mb-16">
                 <div className="flex flex-col gap-2 mb-6 md:mb-0">

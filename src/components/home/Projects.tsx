@@ -51,7 +51,7 @@ const projects = [
 
 export function Projects() {
     return (
-        <section className="py-24 px-4 md:px-6 bg-white text-black rounded-t-[30px] md:rounded-t-[60px] translate-y-0 z-10 relative">
+        <section className="py-24 px-4 md:px-6 bg-background text-black rounded-t-[30px] md:rounded-t-[60px] translate-y-0 z-10 relative">
             <div className="flex flex-col md:flex-row justify-between items-start mb-16">
                 <div className="flex items-baseline gap-2">
                     <h2 className="text-4xl md:text-6xl font-semibold tracking-tighter">Projects.</h2>

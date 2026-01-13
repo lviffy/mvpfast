@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function Advantages() {
     return (
-        <section className="py-24 px-4 md:px-6 bg-white text-black">
+        <section className="py-24 px-4 md:px-6 bg-background text-black">
             <div className="flex flex-col md:flex-row justify-between items-start mb-20">
                 <div className="flex items-center gap-2 mb-4 md:mb-0">
                     <div className="w-10 h-10 rounded-full bg-neutral-100 flex items-center justify-center">

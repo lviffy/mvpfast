@@ -24,7 +24,7 @@ export function Header() {
         <>
             <header
                 className={cn(
-                    "fixed top-0 left-0 right-0 z-50 w-full flex items-center justify-between bg-white text-black px-4 md:px-10 py-3"
+                    "fixed top-0 left-0 right-0 z-50 w-full flex items-center justify-between bg-background text-black px-4 md:px-10 py-3"
                 )}
             >
                 {/* Logo */}

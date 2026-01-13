@@ -50,7 +50,7 @@ const pricingPlans = [
 
 export function Pricing() {
     return (
-        <section className="py-24 px-4 md:px-6 bg-white text-black rounded-t-[30px] md:rounded-t-[60px] -mt-10 z-30 relative">
+        <section className="py-24 px-4 md:px-6 bg-background text-black rounded-t-[30px] md:rounded-t-[60px] -mt-10 z-30 relative">
             {/* Header */}
             <div className="flex flex-col md:flex-row justify-between items-start mb-16">
                 <div className="flex flex-col gap-2 mb-6 md:mb-0">
