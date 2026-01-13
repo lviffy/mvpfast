@@ -18,16 +18,34 @@ export function Hero() {
                         loop
                         muted
                         playsInline
-                        className="w-full h-full object-cover filter grayscale opacity-50"
+                        className="w-full h-full object-cover"
                     />
                 </div>
-                {/* Dark Overlay for better contrast */}
-                <div className="absolute inset-0 -z-15 bg-black/55"></div>
                 {/* Noise Overlay */}
-                <div
-                    className="absolute inset-0 -z-10 opacity-[0.03] pointer-events-none"
-                    style={{ backgroundImage: 'url("https://framerusercontent.com/images/rR6HYXBrMmX4cRpXfXUOvpvpB0.png")' }}
-                ></div>
+                <div className="absolute inset-0 -z-10 opacity-[0.05] pointer-events-none overflow-hidden">
+                    <div
+                        className="absolute -top-[50%] -left-[50%] w-[200%] h-[200%]"
+                        style={{
+                            backgroundImage: 'url("https://framerusercontent.com/images/rR6HYXBrMmX4cRpXfXUOvpvpB0.png")',
+                            animation: 'grain 8s steps(10) infinite'
+                        }}
+                    />
+                </div>
+                <style dangerouslySetInnerHTML={{
+                    __html: `
+                    @keyframes grain {
+                        0%, 100% { transform: translate(0, 0); }
+                        10% { transform: translate(-5%, -10%); }
+                        20% { transform: translate(-15%, 5%); }
+                        30% { transform: translate(7%, -25%); }
+                        40% { transform: translate(-5%, 25%); }
+                        50% { transform: translate(-15%, 10%); }
+                        60% { transform: translate(15%, 0%); }
+                        70% { transform: translate(0%, 15%); }
+                        80% { transform: translate(3%, 35%); }
+                        90% { transform: translate(-10%, 10%); }
+                    }
+                `}} />
 
                 {/* Main Content */}
                 <div className="w-full flex-1 flex flex-col relative">
