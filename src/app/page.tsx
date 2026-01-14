@@ -3,6 +3,7 @@ import { ClientsSection } from "@/components/home/ClientsSection";
 import { Projects } from "@/components/home/Projects";
 import { Advantages } from "@/components/home/Advantages";
 import { Services } from "@/components/home/Services";
+import { About } from "@/components/home/About";
 import { Experiences } from "@/components/home/Experiences";
 import { Pricing } from "@/components/home/Pricing";
 import { FAQ } from "@/components/home/FAQ";
@@ -20,6 +21,7 @@ export default function Home() {
         <Advantages />
         <Services />
       </div>
+      <About />
       <Experiences />
       <Pricing />
       <FAQ />

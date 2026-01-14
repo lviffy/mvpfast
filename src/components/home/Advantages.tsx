@@ -2,6 +2,42 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useRef } from "react";
+import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
+
+function ScrollRevealText({ children, className }: { children: string; className?: string }) {
+    const element = useRef(null);
+    const { scrollYProgress } = useScroll({
+        target: element,
+        offset: ["start 0.9", "start 0.6"],
+    });
+
+    const words = children.split(" ");
+
+    return (
+        <span ref={element} className={className}>
+            {words.map((word, i) => {
+                const start = i / words.length;
+                const end = start + 1 / words.length;
+                return (
+                    <Word key={i} progress={scrollYProgress} range={[start, end]}>
+                        {word}
+                    </Word>
+                );
+            })}
+        </span>
+    );
+}
+
+const Word = ({ children, progress, range }: { children: string; progress: MotionValue<number>; range: [number, number] }) => {
+    const opacity = useTransform(progress, range, [0.1, 1]);
+    return (
+        <span className="relative inline-block mr-[0.3em] last:mr-0">
+            <span className="absolute opacity-10">{children}</span>
+            <motion.span style={{ opacity }}>{children}</motion.span>
+        </span>
+    );
+};
 
 export function Advantages() {
     return (
@@ -18,7 +54,10 @@ export function Advantages() {
                     </div>
 
                     <h2 className="text-2xl md:text-5xl font-semibold max-w-4xl leading-[1.1] tracking-tight">
-                        Proven results for every project, <span className="text-black/40">with a focus on design and functionality.</span>
+                        <ScrollRevealText className="text-black">
+                            Proven results for every project,
+                        </ScrollRevealText>{" "}
+                        <span className="text-black/40">with a focus on design and functionality.</span>
                     </h2>
                 </div>
 
