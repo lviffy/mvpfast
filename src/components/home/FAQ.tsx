@@ -13,7 +13,7 @@ const faqs = [
     {
         id: "02",
         question: "How long does a typical project take?",
-        answer: "Project timelines vary based on scope and complexity. A basic website typically takes 2-4 weeks, while comprehensive branding and development projects can take 6-12 weeks. We'll provide a detailed timeline during our initial consultation."
+        answer: "Project timelines vary based on scope and complexity. A basic website typically takes 2-4 weeks, while comprehensive branding and development projects can take 6- 12 weeks. We'll provide a detailed timeline during our initial consultation."
     },
     {
         id: "03",
