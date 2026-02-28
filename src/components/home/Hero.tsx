@@ -23,7 +23,7 @@ export function Hero() {
                 {/* Background Video inside the container */}
                 <div className="absolute inset-0 -z-20">
                     <video
-                        src="/fabrica.mp4"
+                        src="/mvpfast.mp4"
                         poster="https://framerusercontent.com/images/ZJ6HLYoAxMXsbBJCnggXHSRug.jpg"
                         autoPlay
                         loop
@@ -60,25 +60,21 @@ export function Hero() {
 
                 {/* Main Content */}
                 <div className="w-full flex-1 flex flex-col relative">
-                    {/* Title Area - fabrica® with inline circled R */}
+                    {/* Title Area - MVPfast */}
                     <div className="w-full mt-4 md:mt-8 relative z-10">
                         <div className="flex items-start">
                             <h1 className={`text-[20vw] md:text-[17vw] leading-[0.85] font-bold tracking-[-0.04em] lowercase text-white ${inter.className}`}>
-                                fabrica
+                                MVPfast
                             </h1>
-                            {/* Circled R - smaller and positioned at top right of text */}
-                            <div className="relative flex items-center justify-center w-[5vw] md:w-[4vw] h-[5vw] md:h-[4vw] border-[0.25vw] border-white rounded-full mt-[2.5vw] ml-[0.5vw]">
-                                <span className="text-[2.5vw] md:text-[2vw] font-bold leading-none">R</span>
-                            </div>
                         </div>
                     </div>
 
-                    {/* Studio Text - positioned center-right, no overlap */}
+                    {/* Studios Text - positioned center-right, no overlap */}
                     <div className="w-full flex justify-center md:justify-center md:pl-[15vw] mt-[1vw] md:mt-[0.5vw]">
                         <span
                             className={`text-[12vw] md:text-[8vw] font-normal tracking-[-0.02em] leading-none ${instrumentSerif.className}`}
                         >
-                            Studio
+                            Studios
                         </span>
                     </div>
 
@@ -112,7 +108,7 @@ export function Hero() {
                     {/* Center - Copyright */}
                     <div className="col-span-12 md:col-span-4 flex justify-center">
                         <div className="text-xs text-white/40 font-medium">
-                            © 2025 fabrica® Studio
+                            © 2025 MVPfast Studios
                         </div>
                     </div>
 
@@ -134,7 +130,7 @@ export function Hero() {
                             {/* Right Card - Content */}
                             <div className="bg-white rounded-[16px] p-5 pr-10 flex flex-col justify-center transition-all duration-300 grow">
                                 <div className="text-sm font-bold text-neutral-700 uppercase tracking-wider">Team Lead</div>
-                                <div className="text-sm text-neutral-400 font-medium">at fabrica®</div>
+                                <div className="text-sm text-neutral-400 font-medium">at MVPfast Studios</div>
                                 <div className="text-2xl font-bold text-black tracking-tight leading-tight mt-1 mb-4">Lauren Thompson</div>
 
                                 <button className="bg-black text-white text-sm font-semibold rounded-full py-3 px-6 flex items-center gap-2 group/btn hover:bg-neutral-800 transition-colors w-fit">

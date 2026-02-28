@@ -102,7 +102,7 @@ export function Experiences() {
 
                             <div>
                                 <div className="mb-6">
-                                    <h3 className="font-bold text-lg mb-3">fabrica®</h3>
+                                    <h3 className="font-bold text-lg mb-3">MVPfast®</h3>
                                     <div className="flex items-center gap-2 mb-2">
                                         {/* Simulated Avatars */}
                                         <div className="flex -space-x-3">
@@ -264,7 +264,7 @@ export function Experiences() {
                     <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-12">
                         {/* Left: Brand */}
                         <div>
-                            <h4 className="font-bold text-lg mb-4">fabrica®</h4>
+                            <h4 className="font-bold text-lg mb-4">MVPfast®</h4>
                             <p className="text-xs text-neutral-500 font-medium max-w-[200px] leading-relaxed">
                                 Every project we take on is designed for long-term success.
                             </p>

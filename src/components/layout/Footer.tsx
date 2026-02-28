@@ -29,10 +29,10 @@ export function Footer() {
             {/* Large Branding */}
             <div className="mb-20">
                 <h2 className="text-[15vw] leading-[0.85] font-semibold tracking-tighter uppercase">
-                    fabrica<sup className="text-[3vw] align-super">®</sup>
+                    MVPfast
                 </h2>
                 <div className="flex justify-end -mt-2 md:-mt-8 pr-4 md:pr-10">
-                    <span className="text-2xl md:text-4xl font-semibold tracking-tight">Studio</span>
+                    <span className="text-2xl md:text-4xl font-semibold tracking-tight">Studios</span>
                 </div>
             </div>
 
@@ -115,7 +115,7 @@ export function Footer() {
             {/* Bottom Bar */}
             <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
                 <div className="text-sm text-neutral-500">
-                    © 2025 fabrica® Studio. All rights reserved.
+                    © 2025 MVPfast Studios. All rights reserved.
                 </div>
                 <div className="flex gap-6">
                     <Link href="/privacy" className="text-sm text-neutral-500 hover:text-white transition-colors">

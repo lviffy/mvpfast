@@ -48,7 +48,7 @@ export function About() {
 
                         {/* Right Column - Content */}
                         <div className="max-w-4xl w-full">
-                            <div className="mb-6 font-semibold text-xl tracking-tight">fabrica®</div>
+                            <div className="mb-6 font-semibold text-xl tracking-tight">MVPfast®</div>
                             <h2 className="text-4xl md:text-6xl font-semibold tracking-tighter mb-8 leading-[0.95] -ml-1">
                                 How we launch <span className="text-black/40">websites and marketing campaigns.</span>
                             </h2>

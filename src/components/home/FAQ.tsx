@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 const faqs = [
     {
         id: "01",
-        question: "What services does fabrica® offer?",
+        question: "What services does MVPfast® offer?",
         answer: "We specialize in web design and development, branding and identity, social media marketing, and SEO optimization. Our comprehensive approach ensures all aspects of your digital presence work together seamlessly."
     },
     {

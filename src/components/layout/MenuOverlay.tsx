@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Studio", href: "/studio" },
+    { name: "Studios", href: "/studios" },
     { name: "Projects", href: "/projects" },
     { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/contact" },
@@ -43,7 +43,7 @@ export function MenuOverlay({ onClose }: { onClose: () => void }) {
             <div className="w-full flex flex-col md:flex-row justify-between items-end md:items-center border-t border-black/10 pt-6 mt-6">
                 <div className="flex flex-col gap-1">
                     <span className="text-lg font-medium">(312) 555-2468</span>
-                    <a href="mailto:hello@fabrica.com" className="text-2xl font-semibold tracking-tight">hello@fabrica.com</a>
+                    <a href="mailto:hello@mvpfast.studios" className="text-2xl font-semibold tracking-tight">hello@mvpfast.studios</a>
                 </div>
 
                 <div className="flex gap-4 mt-4 md:mt-0 text-sm font-medium">
@@ -52,7 +52,7 @@ export function MenuOverlay({ onClose }: { onClose: () => void }) {
                 </div>
 
                 <div className="mt-4 md:mt-0 text-sm opacity-60">
-                    © 2025 fabrica® Studio
+                    © 2025 MVPfast Studios
                 </div>
             </div>
         </motion.div>

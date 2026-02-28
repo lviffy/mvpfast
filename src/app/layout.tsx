@@ -26,8 +26,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Fabrica® Studio – Web Design, Branding & Digital Growth",
-  description: "Elevate your brand with expert web design, branding, and digital marketing. Fabrica® Studio delivers strategic, high-performing solutions tailored to your business needs.",
+  title: "MVPfast Studios – Web Design, Branding & Digital Growth",
+  description: "Elevate your brand with expert web design, branding, and digital marketing. MVPfast Studios delivers strategic, high-performing solutions tailored to your business needs.",
 };
 
 export default function RootLayout({

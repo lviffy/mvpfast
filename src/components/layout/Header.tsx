@@ -30,7 +30,7 @@ export function Header() {
                 {/* Logo */}
                 <Link href="/" className="pointer-events-auto inline-block">
                     <span className="font-sans font-bold text-xl tracking-tighter leading-none">
-                        fabrica®
+                        MVPfast
                     </span>
                 </Link>
 
@@ -39,7 +39,7 @@ export function Header() {
                     "hidden md:flex flex-1 items-center justify-around mx-8 transition-opacity duration-300",
                     isOpen ? "opacity-0 pointer-events-none" : "opacity-100"
                 )}>
-                    <Link href="#" className="hover:opacity-70 transition-opacity text-sm font-medium leading-none">Studio</Link>
+                    <Link href="#" className="hover:opacity-70 transition-opacity text-sm font-medium leading-none">Studios</Link>
                     <Link href="#" className="hover:opacity-70 transition-opacity relative text-sm font-medium leading-none">
                         Projects
                         <span className="absolute -top-1 -right-3 text-[10px] opacity-60">27</span>

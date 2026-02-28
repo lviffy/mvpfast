@@ -84,8 +84,8 @@ export function Contact() {
                         </div>
 
                         <div className="flex gap-4">
-                            <Link href="mailto:hello@fabrica.studio" className="px-6 py-3 rounded-full border border-white/20 hover:bg-white hover:text-black transition-colors text-sm font-medium">
-                                hello@fabrica.studio
+                            <Link href="mailto:hello@MVPfast.studio" className="px-6 py-3 rounded-full border border-white/20 hover:bg-white hover:text-black transition-colors text-sm font-medium">
+                                hello@MVPfast.studio
                             </Link>
                             <Link href="/book" className="px-6 py-3 rounded-full bg-white text-black hover:bg-neutral-200 transition-colors text-sm font-medium">
                                 Schedule Call
